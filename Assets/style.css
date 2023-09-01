@@ -1,0 +1,115 @@
+body {
+    background-color: grey;
+}
+    
+    
+#header {
+    padding: 20px;
+    margin-bottom: 25px;
+    font-family: "Arial";
+    background-color: rgb(57, 57, 57);
+}
+    
+    
+#header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+    
+    
+#header div {
+    justify-content: end;
+    padding-top: 10px;
+    float: right;
+    font-size: 30px;
+}
+
+
+#header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+    
+    
+a {
+    color: black;
+    text-decoration: none;
+}
+    
+    
+p {
+    font-size: 20px;
+}
+    
+    
+#about {
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(187, 186, 186);
+    color: black;
+}
+    
+    
+#about img {
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+    
+    
+.content {
+    display: flex;
+    justify-content: center;
+}
+    
+    
+.preWorkStuyGuide {
+    margin: 10px;
+    padding: 50px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(187, 186, 186);
+    color: black;
+}
+    
+    
+.preWorkStuyGuide img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+    
+    
+.comingSoon {
+    margin: 10px;
+    padding: 50px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(187, 186, 186);
+    color: black;
+}
+    
+    
+.sign {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+    
+    
+#contact {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    padding: 50px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(187, 186, 186);
+    color: black;
+}
